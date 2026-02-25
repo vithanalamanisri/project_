@@ -1,0 +1,329 @@
+{
+  "B.Tech": {
+    "CSE": {
+      "1": { "core": ["Engineering Mathematics I", "Engineering Physics", "Engineering Chemistry", "English Communication", "Environmental Science", "Engineering Graphics"], "technical": ["C Programming Basics", "Linux Commands", "Git & GitHub", "HTML/CSS Basics", "Algorithm Logic", "Markdown", "VS Code Mastery", "Command Line Power"], "projects": ["Static Portfolio", "Command Line Calculator", "Unit Converter", "Basic Landing Page"], "certifications": ["C Programming Cert", "Responsive Web Design (FreeCodeCamp)", "Linux Essentials"], "internships": ["Open Source Contributor", "Campus Tech Lead Assistant", "NGO Web Volunteer"], "career": ["Junior Frontend Dev", "Software Trainee", "System Support Analyst"], "advice": ["Focus on logic building", "Master one programming language", "Start your GitHub journey"] },
+      "2": { "core": ["Data Structures", "Discrete Mathematics", "Operating Systems", "Computer Organization", "Object-Oriented Programming"], "technical": ["Java/C++ Advanced", "SQL & Relational Databases", "Python for Automation", "API Fundamentals", "Shell Scripting", "Software Testing Basics"], "projects": ["Library Management System", "Banking App (Java)", "Chat Application", "Inventory Tracker"], "certifications": ["Oracle Java Cert", "SQL Advanced Cert", "Google IT Automation with Python"], "internships": ["Backend Development Intern", "Database Assistant", "QA Tester Intern"], "career": ["Software Engineer", "Backend Developer", "Database Administrator"], "advice": ["Strong DSA is mandatory for placements", "Solve 2 LeetCode problems daily", "Learn how OS handles memory"] },
+      "3": { "core": ["Design & Analysis of Algorithms", "Computer Networks", "DBMS Advanced", "Software Engineering", "Artificial Intelligence"], "technical": ["React/Angular", "Node.js/Express", "MongoDB", "Docker Basics", "System Design Patterns", "Cloud Deployment"], "projects": ["E-commerce App", "Real-time Chatroom", "AI Sentiment Analyzer", "Smart Attendance System"], "certifications": ["AWS Certified Cloud Practitioner", "Meta Front-End Developer", "MongoDB Associate"], "internships": ["Full Stack Intern", "Cloud Engineering Intern", "Research Assistant"], "career": ["Full Stack Developer", "Cloud Engineer", "System Analyst"], "advice": ["Build a major project from scratch", "Start preparing for Aptitude/Coding rounds", "Optimize your LinkedIn"] },
+      "4": { "core": ["Distributed Systems", "Machine Learning", "Cyber Security", "Human-Computer Interaction", "Project Management"], "technical": ["Kubernetes", "CI/CD Pipelines", "Generative AI APIs", "Microservices Architecture", "Advanced Security Tools"], "projects": ["Final Year Research Project", "AI SaaS Platform", "Blockchain Voting System", "Distributed File System"], "certifications": ["AWS Solutions Architect", "TensorFlow Developer", "Certified Ethical Hacker (CEH)"], "internships": ["Product Engineer Intern", "Applied AI Researcher", "DevOps Intern"], "career": ["SDE-1", "AI/ML Engineer", "DevOps Architect"], "advice": ["Focus on mock interviews", "Finish your major project documentation", "Network with industry alumni"] }
+    },
+    "ECE": {
+      "1": { "core": ["Eng. Math", "Applied Physics", "Eng. Graphics", "Basic Electrical"], "technical": ["C Programming", "Matlab Basics", "Circuit Prototyping", "PCB Design Basics"], "projects": ["DC Power Supply", "Automatic Street Light", "LED Chaser"], "certifications": ["Arduino Fundamentals", "Basic Electronics (NPTEL)"], "internships": ["Local Hardware Startup", "Tech Workshop"], "career": ["Graduate Trainee", "Hardware Technician"], "advice": ["Master soldering early", "Focus on logic over formulas"] },
+      "2": { "core": ["Electronic Devices", "Network Theory", "Digital Systems", "Signals & Systems"], "technical": ["Verilog/VHDL", "LTSpice Simulation", "Microcontrollers (8051)", "Python for Signals"], "projects": ["Digital Wall Clock", "Home Automation", "Temperature Controller"], "certifications": ["HDL Certification", "Embedded Systems (Arduino)"], "internships": ["Embedded Systems Intern", "PCB Design Trainee"], "career": ["Embedded Engineer", "Circuit Designer"], "advice": ["Master Network Theory", "Switch from Arduino to ESP32/STM32"] },
+      "3": { "core": ["Communication Systems", "DSP", "VLSI Basics", "Antennas", "Microprocessors"], "technical": ["ARM Cortex", "FPGA Prototyping", "RTOS", "IoT Protocols (MQTT)"], "projects": ["IoT Health Monitor", "Real-time DSP Filter", "Gesture Controlled Robot"], "certifications": ["VLSI Design (Cadence)", "Certified IoT Professional"], "internships": ["Semiconductor Intern", "Telecom Intern (Jio/Airtel)"], "career": ["VLSI Engineer", "Telecom Engineer", "IoT Architect"], "advice": ["Pick a niche: VLSI vs Embedded", "Learn DSA for tech interviews"] },
+      "4": { "core": ["5G Technology", "Microwave Eng.", "Optical Comm.", "Radar Systems"], "technical": ["ASIC Design Flow", "System on Chip (SoC)", "Embedded Linux", "RF System Design"], "projects": ["5G Network Simulation", "AI Voice Robot", "Autonomous Drone"], "certifications": ["5G Tech Certification", "Deep Learning for Signals"], "internships": ["Research Intern (IIT)", "Core Hardware Intern"], "career": ["ASIC Verification Engineer", "RF Design Engineer", "SDE"], "advice": ["Publish research for MS/MTech", "Prepare for Core Placements"] }
+    },
+    "AIML": {
+      "1": { "core": ["Math (Linear Algebra)", "Probability & Stats", "Discrete Math", "Eng. Physics"], "technical": ["Python for AI", "NumPy & Pandas", "Git/GitHub", "Data Visualization"], "projects": ["EDA on Kaggle Datasets", "Stock Price Visualizer"], "certifications": ["Python for Data Science", "Google Data Analytics"], "internships": ["Data Labeling Intern", "Open Source Contributor"], "career": ["Data Analyst Trainee", "Python Developer"], "advice": ["Math is the backbone of AI", "Master Python libraries early"] },
+      "2": { "core": ["DSA", "DBMS (SQL)", "Machine Learning Basics", "Optimization"], "technical": ["Scikit-Learn", "Feature Engineering", "Regression", "SQL for Data Science"], "projects": ["House Price Predictor", "Spam Email Classifier", "Customer Segmentation"], "certifications": ["ML Specialization (Andrew Ng)", "SQL Gold Badge"], "internships": ["ML Intern", "Data Research Assistant"], "career": ["Junior ML Engineer", "Business Intelligence Analyst"], "advice": ["Learn the 'Why' behind algorithms", "Start competing on Kaggle"] },
+      "3": { "core": ["Deep Learning", "NLP", "Computer Vision", "Reinforcement Learning"], "technical": ["TensorFlow/PyTorch", "Neural Networks", "Docker Basics", "Cloud APIs"], "projects": ["Handwritten Digit Recognizer", "AI Chatbot", "Object Detection"], "certifications": ["Deep Learning Specialization", "TensorFlow Developer Cert"], "internships": ["AI Engineer Intern", "Research Intern"], "career": ["AI Developer", "NLP Engineer", "Computer Vision Analyst"], "advice": ["Focus on model deployment", "Build AI portfolio on Hugging Face"] },
+      "4": { "core": ["Generative AI", "LLMs", "AI Ethics", "MLOps"], "technical": ["Fine-tuning LLMs", "Kubernetes", "CI/CD for ML", "Prompt Engineering"], "projects": ["Major: Custom GPT Model", "AI SaaS Product", "Drone Navigation"], "certifications": ["AWS Machine Learning Specialty", "Generative AI Cert"], "internships": ["Product AI Intern", "Applied AI Researcher"], "career": ["MLOps Engineer", "Generative AI Architect", "Data Scientist"], "advice": ["Stay updated with research papers", "Focus on scalable AI"] }
+    },
+    "AI&DS": {
+      "1": { "core": ["Statistics I", "Linear Algebra", "Calculus", "Digital Logic"], "technical": ["Python", "Pandas & Matplotlib", "Excel for Data", "SQL Basics"], "projects": ["Descriptive Stats on Datasets", "Sales Dashboard"], "certifications": ["Google Data Analytics", "Python for Data Science"], "internships": ["Data Analysis Intern", "Open Source Contributor"], "career": ["Data Junior Analyst", "Reporting Executive"], "advice": ["Learn to tell stories with data", "Focus on clean, readable code"] },
+      "2": { "core": ["DSA", "DBMS", "Probability", "Inferential Statistics"], "technical": ["SQL Advanced", "Tableau/Power BI", "Data Cleaning", "EDA"], "projects": ["Financial Trend Tracker", "Inventory Management", "Weather Predictor"], "certifications": ["Tableau Specialist", "SQL Gold Badge"], "internships": ["Business Intelligence Intern", "Data Engineering Trainee"], "career": ["BI Analyst", "Junior Data Engineer", "Data Consultant"], "advice": ["SQL is as important as Python", "Master data cleaning"] },
+      "3": { "core": ["Machine Learning", "Big Data Tools", "Data Warehousing", "Cloud Computing"], "technical": ["Apache Spark", "Hadoop Basics", "AWS/Azure Data Tools", "NoSQL"], "projects": ["Big Data Pipeline", "Recommendation Engine", "Real-time Analytics"], "certifications": ["AWS Data Engineer Associate", "Databricks Cert"], "internships": ["Data Engineer Intern", "Big Data Analyst"], "career": ["Data Architect", "Big Data Engineer", "Analytics Lead"], "advice": ["Understand distributed computing", "Learn scalable pipelines"] },
+      "4": { "core": ["Data Governance", "MLOps", "AI Ethics", "Decision Theory"], "technical": ["Kubernetes", "Airflow", "MLflow", "Advanced ETL Workflows"], "projects": ["End-to-end Data Pipeline", "AI-driven BI Platform"], "certifications": ["Google Professional Data Engineer", "MLOps Cert"], "internships": ["Lead Data Intern", "Corporate Strategy AI Intern"], "career": ["Senior Data Engineer", "Analytics Manager"], "advice": ["Focus on data security", "Bridge the gap between tech and business"] }
+    },
+    "EEE": {
+      "1": { "core": ["Maths I & II", "Eng. Physics", "Eng. Chemistry", "Basic Electrical"], "technical": ["C Programming", "Matlab Basics", "Electrical Wiring", "Circuit Simulation"], "projects": ["Home Wiring Model", "LED Blinking Circuit", "Battery Level Indicator"], "certifications": ["Electrical Safety Cert", "Matlab for Beginners"], "internships": ["Electrician Assistant", "Campus Maintenance Intern"], "career": ["Junior Electrical Engineer", "Maintenance Trainee"], "advice": ["Focus on circuit laws", "Understand high voltage risks"] },
+      "2": { "core": ["Network Theory", "Electrical Machines I", "Analog & Digital Electronics", "Signals"], "technical": ["PCB Design", "Arduino Programming", "Multisim/PSpice", "Sensor Interfacing"], "projects": ["Motor Speed Controller", "Smart Energy Meter", "Digital Clock"], "certifications": ["Arduino Cert", "PCB Design Professional"], "internships": ["Electronics Intern", "Industrial Automation Trainee"], "career": ["Embedded Engineer", "Instrumentation Engineer"], "advice": ["Machines are the heart of EEE", "Master PCB design"] },
+      "3": { "core": ["Power Systems I", "Control Systems", "Power Electronics", "Renewable Energy"], "technical": ["PLC Programming", "SCADA Systems", "EV Technology", "Solar Design"], "projects": ["Solar Tracker", "EV Charging Model", "PLC Based Automation"], "certifications": ["PLC/SCADA Cert", "EV Technology (NPTEL)"], "internships": ["Power Plant Intern", "Solar Energy Startup"], "career": ["Power Engineer", "Automation Engineer", "EV Engineer"], "advice": ["Pick a specialization: Power vs Automation", "Learn MATLAB deeply"] },
+      "4": { "core": ["Power System Protection", "High Voltage Eng.", "Smart Grid", "Energy Mgmt."], "technical": ["Advanced PLC", "AI in Power Systems", "Grid Integration", "Battery Tech"], "projects": ["Smart Grid Simulation", "Solar Microgrid", "Fault Detection System"], "certifications": ["Energy Auditor Cert", "Advanced Solar Design"], "internships": ["Grid Operations Intern", "Research Intern (Renewables)"], "career": ["Electrical Consultant", "Energy Manager"], "advice": ["Prepare for GATE early", "Network with industry experts"] }
+    },
+    "Mechanical": {
+      "1": { "core": ["Maths I & II", "Eng. Physics", "Eng. Mechanics", "Eng. Graphics"], "technical": ["AutoCAD Basics", "Workshop Practice", "Material Science Intro", "C Programming"], "projects": ["3D Model Design", "Miniature Lathe Project", "Gear Mechanism"], "certifications": ["AutoCAD Professional", "Workshop Safety Cert"], "internships": ["Local Fabrication Shop", "Automotive Service Center"], "career": ["Junior Design Engineer", "Production Trainee"], "advice": ["Visualization is key", "Master AutoCAD early"] },
+      "2": { "core": ["Thermodynamics", "Strength of Materials", "Fluid Mechanics", "Manufacturing Tech"], "technical": ["SolidWorks Basics", "CAM Basics", "Machining Operations", "Excel for Engineers"], "projects": ["Hydraulic Jack Model", "IC Engine Study", "Heat Exchanger Model"], "certifications": ["SolidWorks Associate (CSWA)", "NPTEL Manufacturing"], "internships": ["Manufacturing Plant Intern", "Quality Control Trainee"], "career": ["Production Engineer", "Quality Analyst"], "advice": ["Understand material failure", "Get hands-on with CNC machines"] },
+      "3": { "core": ["Design of Machine Elements", "Heat Transfer", "Dynamics", "Mechatronics"], "technical": ["ANSYS Basics (FEA)", "Robotics Programming", "Pneumatics", "EV Basics"], "projects": ["Electric Bike Prototype", "Robotic Arm", "Solar Cooler"], "certifications": ["ANSYS Structural Cert", "EV Tech Certification"], "internships": ["Automobile Company", "Robotics Startup"], "career": ["R&D Engineer", "Automotive Engineer"], "advice": ["Focus on Design/Simulation software", "Learn basic coding"] },
+      "4": { "core": ["Industrial Automation", "CAD/CAM", "Power Plant Eng.", "Operations Research"], "technical": ["Advanced CFD", "Industry 4.0", "3D Printing", "Lean Manufacturing"], "projects": ["Final: Autonomous Robot", "Industrial Automation Cell"], "certifications": ["Six Sigma Green Belt", "Advanced CFD Certification"], "internships": ["Heavy Industries Intern", "Supply Chain Intern"], "career": ["Automation Engineer", "Supply Chain Manager"], "advice": ["Prepare for GATE if targeting PSUs", "Learn Industry 4.0 trends"] }
+    },
+    "Civil": {
+      "1": { "core": ["Maths I & II", "Eng. Physics", "Eng. Mechanics", "Eng. Graphics"], "technical": ["AutoCAD Basics", "Surveying Basics", "Building Materials"], "projects": ["Plan Drawing 2BHK", "Mini Bridge Model", "Material Testing"], "certifications": ["AutoCAD Certification", "Construction Safety (OSHA)"], "internships": ["Local Surveying Firm", "Architectural Assistant"], "career": ["Junior Surveyor", "Draftsman"], "advice": ["Learn to read blueprints", "Master AutoCAD commands"] },
+      "2": { "core": ["Strength of Materials", "Fluid Mechanics", "Geology", "Surveying II"], "technical": ["Revit Basics (BIM)", "Total Station Handling", "Concrete Mix Design"], "projects": ["Topographic Map", "Concrete Strength Analysis", "Hydraulic Model"], "certifications": ["Revit Structure Cert", "Advanced Surveying"], "internships": ["Construction Site", "Soil Testing Lab"], "career": ["Site Engineer Trainee", "Soil Analyst"], "advice": ["Understand material properties", "Get hands-on with leveling tools"] },
+      "3": { "core": ["Structural Analysis", "RCC Design", "Geotechnical Eng.", "Transportation Eng."], "technical": ["STAAD.Pro/ETABS", "Primavera/MS Project", "Quantity Surveying"], "projects": ["Building Structural Design", "Road Alignment", "Water Treatment Model"], "certifications": ["STAAD.Pro Certification", "Project Management (MSP)"], "internships": ["Government Infra Intern", "Structural Design Firm"], "career": ["Structural Designer", "Quantity Surveyor"], "advice": ["Focus on 'Design of Structures'", "Learn scheduling tools"] },
+      "4": { "core": ["Steel Structures", "Environmental Eng.", "Construction Management", "Hydrology"], "technical": ["Advanced BIM", "AI in Construction", "Smart City Planning"], "projects": ["Final: Earthquake Structure", "Green Building Audit"], "certifications": ["LEED Green Associate", "Advanced BIM Professional"], "internships": ["Heavy Infra Intern (L&T)", "Urban Planning Dept"], "career": ["Project Manager", "Urban Planner"], "advice": ["Sustainability is a massive trend", "Prepare for GATE"] }
+    }
+  },
+  "M.Tech": {
+    "Artificial Intelligence": {
+      "1": {
+        "core": ["Math Foundations (Linear Algebra/Optimization)", "Adv. Machine Learning", "Neural Networks", "Knowledge Representation", "Logic in CS", "Research Methodology"],
+        "technical": ["PyTorch/TensorFlow Advanced", "Natural Language Processing", "Computer Vision", "Reinforcement Learning", "CUDA Programming", "Advanced Python"],
+        "projects": ["Research Paper Implementation", "Custom Neural Architecture", "Multi-modal AI System", "RL Agent for Complex Games"],
+        "certifications": ["Deep Learning Specialization", "TensorFlow Developer Cert", "NVIDIA Graduate Cert", "Stanford AI Cert"],
+        "internships": ["AI Research Intern (Google/Microsoft)", "Deep Learning Trainee", "University Research Assistant"],
+        "career": ["AI Research Scientist", "ML Architect", "Deep Learning Engineer", "NLP Scientist"],
+        "advice": ["Understand calculus behind backprop", "Contribute to Hugging Face", "Start literature review early"]
+      },
+      "2": {
+        "core": ["Generative AI & LLMs", "Explainable AI (XAI)", "AI for Robotics", "Speech Processing", "Cognitive Computing", "Master’s Dissertation"],
+        "technical": ["MLOps (Deployment/Monitoring)", "Fine-tuning LLMs", "Model Quantization", "Distributed Training", "Agentic AI Frameworks"],
+        "projects": ["Master's Thesis", "Enterprise Agentic Workflow", "Multilingual Speech Translator", "Privacy AI (Federated Learning)"],
+        "certifications": ["AWS Machine Learning Specialty", "Google Professional ML Engineer", "Databricks ML Prof", "Research Ethics Cert"],
+        "internships": ["Corporate AI R&D Internship", "Dissertation Intern", "Senior ML Eng Intern", "AI Product Mgmt Trainee"],
+        "career": ["Head of AI", "Principal ML Engineer", "AI Product Lead", "Assistant Professor"],
+        "advice": ["Target Tier-1 journals for thesis", "Focus on AI ethics and bias", "Bridge model and business"]
+      }
+    },
+    "Data Science": {
+      "1": {
+        "core": ["Statistical Inference", "Data Warehousing", "Big Data Analytics", "Applied Linear Algebra", "Data Ethics", "Research Methods"],
+        "technical": ["Advanced SQL & NoSQL", "Apache Spark (PySpark)", "Data Visualization (D3.js)", "Exploratory Data at Scale", "ETL Orchestration (Airflow)", "Cloud Data Arch"],
+        "projects": ["Automated Data Cleaning Pipeline", "Predictive Analytics Dashboard", "Fraud Detection Engine", "Graph Recommendation System"],
+        "certifications": ["Google Data Engineer", "AWS Data Engineer", "Tableau Professional", "Databricks Data Engineer"],
+        "internships": ["Data Eng Intern (FinTech)", "BI Trainee at MNC", "Data Scientist Intern", "Cloud Data Intern"],
+        "career": ["Data Architect", "Lead Data Scientist", "Analytics Consultant", "Big Data Engineer"],
+        "advice": ["DS is 80% data engineering in MTech", "Understand the Curse of Dimensionality", "Master pipeline orchestration"]
+      },
+      "2": {
+        "core": ["Time Series Forecasting", "Graph Analytics", "Optimization in DS", "Business Intelligence", "Adv. Data Security", "Master’s Dissertation"],
+        "technical": ["MLOps for DS Pipelines", "Automated Feature Eng", "Stream Processing", "Kubernetes for DS", "MLflow Management"],
+        "projects": ["Thesis: Scalable Industry System", "Self-Healing Data Pipeline", "Customer 360 View Analytics", "Trend Prediction AI"],
+        "certifications": ["Azure Data Scientist Associate", "Certified Analytics Prof (CAP)", "Snowflake Core Cert"],
+        "internships": ["Senior Data Science Intern", "Industrial Dissertation Intern", "Data Governance Trainee"],
+        "career": ["Chief Data Officer", "Lead Analytics Manager", "Data Science Director", "Senior Data Architect"],
+        "advice": ["Industries need deployment skills", "Bridge Big Data and ML", "Network with Data Engineering communities"]
+      }
+    },
+    "Structural Engineering": {
+      "1": {
+        "core": ["Adv. Structural Analysis", "Structural Dynamics", "Elasticity & Plasticity", "FEM", "Concrete Technology", "Matrix Methods"],
+        "technical": ["ETABS (Seismic)", "STAAD.Pro (Industrial)", "Revit Structure (BIM)", "SAP2000 (FEA)", "Python for Optimization", "SAFE (Foundations)"],
+        "projects": ["Seismic Analysis Project", "Finite Element Modeling of Joints", "Industrial Steel Shed Design", "Structural Audit Case Study"],
+        "certifications": ["BIM Professional Cert", "Bentley STAAD.Pro User", "Autodesk Revit Pro", "Certified Structural Auditor"],
+        "internships": ["Structural Design Firm (Arup/L&T)", "Infrastructure Trainee", "BIM Modeler Intern", "Soil Testing Lab Assistant"],
+        "career": ["Structural Designer", "BIM Engineer", "Structural Analyst", "Bridge Engineer"],
+        "advice": ["Understand Load Path logic over software results", "Master seismic design codes (IS 1893)", "BIM is mandatory for 2026"]
+      },
+      "2": {
+        "core": ["Earthquake Resistant Design", "Tall Building Design", "Adv. Foundation Engineering", "Prestressed Concrete", "Bridge Engineering", "Retrofitting", "Dissertation"],
+        "technical": ["Perform-3D", "Tekla Structural Designer", "Digital Twin for Structures", "AI-based Monitoring", "Parametric Design (Grasshopper)"],
+        "projects": ["Master's Thesis", "Wind Load Analysis skyscraper", "Offshore Wind Turbine Foundation", "Digital Twin of Bridge"],
+        "certifications": ["Advanced BIM Management", "Certified Earthquake Engineer", "Sustainability Prof (IGBC)", "Project Mgmt (Primavera)"],
+        "internships": ["Senior Structural Intern", "Mega-Project Coordinator", "Dissertation Intern", "Smart Cities Intern"],
+        "career": ["Senior Structural Designer", "Seismic Specialist", "Infrastructure Director", "Consultant Engineer"],
+        "advice": ["Focus dissertation on green materials", "Publish in ASCE or IEEE", "Learn Performance-Based Design"]
+      }
+    }
+  },
+  "Medical": {
+    "MBBS": {
+      "1": {
+        "core": ["Human Anatomy (Thorax, Abdomen, Head/Neck)", "Physiology (Nerve, Muscle, CVS, Respiratory)", "Biochemistry (Enzymes, Metabolism, Genetics)", "Histology", "Embryology"],
+        "technical": ["Cadaveric Dissection Techniques", "Light Microscope Operation", "Hematology Lab Skills (Blood grouping, Hb counting)", "Basic First Aid & CPR", "Patient Ethics & Communication"],
+        "projects": ["Anatomical Charting of Body Systems", "Biochemical Lab Profile Analysis", "Case Study on Congenital Defects", "Community Health Field Visit Report"],
+        "certifications": ["Basic Life Support (BLS)", "Medical Ethics (WHO/Coursera)", "Health Safety & Environment"],
+        "internships": ["Rural PHC Observation", "General Hospital Ward Shadowing", "NGO Health Camp Assistant"],
+        "career": ["Medical Student", "Clinical Researcher", "Healthcare Observer"],
+        "advice": ["Anatomy is the foundation—draw every day", "Read Gray's Anatomy for concepts", "Start clinical logic early"]
+      },
+      "2": {
+        "core": ["Pathology (General, Systemic)", "Microbiology (Bacteriology, Virology, Parasitology)", "Pharmacology (Drugs, Toxicology)", "Forensic Medicine"],
+        "technical": ["Diagnostic Lab Procedures", "Prescription Writing", "Surgical Instrument Recognition", "Autopsy Observation", "Microbial Culture Identification"],
+        "projects": ["Antibiotic Sensitivity Report", "Forensic Autopsy Documentation", "Pharmacological Drug Interaction Chart", "Outbreak Study Case"],
+        "certifications": ["Certified Medical Lab Tech (CMLT)", "Clinical Research Professional"],
+        "internships": ["Hospital Pathology Lab Intern", "Pharmacovigilance Trainee", "Forensic Dept Assistant"],
+        "career": ["Junior Pathologist", "Pharmacovigilance Associate"],
+        "advice": ["Focus on understanding disease pathogenesis", "Memorize drug classifications early"]
+      },
+      "3": {
+        "core": ["Ophthalmology", "Otorhinolaryngology (ENT)", "Community Medicine", "Preventive Medicine"],
+        "technical": ["Slit Lamp Examination", "Audiometry Testing", "Suturing Basics", "Epidemiological Data Analysis", "Patient History Taking"],
+        "projects": ["Cataract Screening Drive", "ENT Diagnostic Case Series", "Community Water Hygiene Study", "Vaccination Coverage Survey"],
+        "certifications": ["Public Health Professional", "Ophthalmic Tech Certification"],
+        "internships": ["Eye Clinic Internship", "Community Outreach Program", "ENT Ward Assistant"],
+        "career": ["Community Health Officer", "Ophthalmic Assistant"],
+        "advice": ["Spend maximum time in clinical postings", "Master the art of patient history taking"]
+      },
+      "4": {
+        "core": ["General Medicine", "General Surgery", "Obstetrics & Gynecology", "Pediatrics", "Orthopedics", "Psychiatry"],
+        "technical": ["Emergency Resuscitation", "Labor Management", "Surgical Assistance", "X-Ray/CT Interpretation", "Psychiatric Counseling"],
+        "projects": ["Maternal Health Field Project", "Emergency Trauma Protocol Design", "Pediatric Growth Assessment Study", "Major Clinical Research Paper"],
+        "certifications": ["Advanced Cardiac Life Support (ACLS)", "Pediatric Advanced Life Support (PALS)"],
+        "internships": ["Compulsory Rotatory Internship (CRRI)", "Emergency Ward Junior Intern", "Surgical Unit Trainee"],
+        "career": ["Medical Officer", "Primary Care Physician", "Post-Graduate Aspirant"],
+        "advice": ["Final year is for application—treat patients with empathy", "NEET-PG/NEXT preparation is vital"]
+      }
+    },
+    "BDS": {
+      "1": {
+        "core": ["General Anatomy & Histology", "General Human Physiology", "Biochemistry", "Dental Anatomy & Oral Histology"],
+        "technical": ["Tooth Carving (Wax Models)", "Microscopic Slide Preparation", "Cast Model Base Preparation", "Dental Material Handling"],
+        "projects": ["Tooth Morphology Carving Set", "Biochemical Saliva Analysis", "Oral Histology Record"],
+        "certifications": ["Basic Dental Hygiene", "Dental Assistant Training"],
+        "internships": ["Dental Clinic Shadowing", "Prosthetic Lab Trainee"],
+        "career": ["Dental Student", "Oral Hygiene Educator"],
+        "advice": ["Patience in carving builds surgical manual dexterity"]
+      },
+      "2": {
+        "core": ["General Pathology", "Microbiology", "Pharmacology", "Dental Materials"],
+        "technical": ["Mixing Gypsum/Alginate", "Bacterial Staining", "Conservative Dentistry basics", "Dental Lab Simulations"],
+        "projects": ["Dental Material Properties Study", "Pharmacology Drug Chart", "Pathology Record"],
+        "certifications": ["Dental Material Specialist (Cert)", "Lab Safety Professional"],
+        "internships": ["Clinical Assistant", "Material Research Cell"],
+        "career": ["Clinical Assistant", "Lab Researcher"],
+        "advice": ["Understand the setting time of dental cements perfectly"]
+      }
+    },
+    "B.Pharm": {
+      "1": {
+        "core": ["Human Anatomy & Physiology", "Pharmaceutical Analysis", "Pharmaceutics I", "Pharmaceutical Inorganic Chemistry"],
+        "technical": ["Titration Techniques", "Dosage Form Formulation", "Microscope Handling", "Calculation of Molality/Normality"],
+        "projects": ["Preparation of Syrups/Elixirs", "Analysis of Common Ions", "Physiological Charting"],
+        "certifications": ["Pharma Regulatory Basics", "Lab Safety Cert"],
+        "internships": ["Community Pharmacy Intern", "Hospital Drug Store Trainee"],
+        "career": ["Medical Representative Trainee", "Quality Assistant"],
+        "advice": ["Pharmaceutics is the core—focus on formulation logic"]
+      },
+      "2": {
+        "core": ["Pharmaceutical Organic Chemistry", "Physical Pharmaceutics", "Pharmaceutical Microbiology", "Pharmaceutical Engineering"],
+        "technical": ["Extraction of Drugs", "Culture Media Preparation", "Industrial Machine handling", "Aseptic Techniques"],
+        "projects": ["Microbial Limit Test of Water", "Design of Distillation Unit", "Organic Synthesis of Paracetamol"],
+        "certifications": ["Microbiological Testing Cert", "Industrial Safety Basics"],
+        "internships": ["Small Scale Manufacturing Unit", "Diagnostic Lab Intern"],
+        "career": ["Production Executive", "Quality Control Analyst"],
+        "advice": ["Industrial engineering concepts are vital for manufacturing roles"]
+      }
+    },
+    "Nursing": {
+      "1": {
+        "core": ["Anatomy & Physiology", "Nutrition & Dietetics", "Nursing Foundations", "Biochemistry"],
+        "technical": ["Vital Signs Monitoring", "Bedmaking & Hygiene care", "First Aid", "Patient Positioning"],
+        "projects": ["Dietary Plan for Patients", "First Aid Awareness Camp", "Hygiene Protocol Guide"],
+        "certifications": ["First Aid & CPR (Red Cross)", "Patient Care Professional"],
+        "internships": ["General Hospital Ward Posting", "Nursing Home Observation"],
+        "career": ["Staff Nurse (Junior)", "Home Health Aide"],
+        "advice": ["Nursing foundation is the soul of patient care"]
+      }
+    }
+  },
+  "MBA": {
+    "Finance": {
+      "1": {
+        "core": ["Financial Accounting", "Managerial Economics", "Quantitative Methods", "Corporate Finance Basics", "Business Communication"],
+        "technical": ["Advanced Excel (VLOOKUP, Pivot Tables)", "Financial Modeling", "Tally ERP Basics", "Bloomberg Terminal Intro"],
+        "projects": ["Annual Report Analysis", "Ratio Analysis of Nifty-50 companies", "Capital Budgeting Simulation"],
+        "certifications": ["NISM Series V-A (Mutual Funds)", "Bloomberg Market Concepts (BMC)"],
+        "internships": ["Banking Intern", "Equity Research Trainee", "Credit Analyst Intern"],
+        "career": ["Financial Analyst", "Credit Manager", "Investment Associate"],
+        "advice": ["The Economic Times should be your daily morning routine", "Networking on LinkedIn is 50% of the job"]
+      },
+      "2": {
+        "core": ["Investment Banking", "International Finance", "M&A (Mergers & Acquisitions)", "Derivatives", "Portfolio Management"],
+        "technical": ["Python for Finance", "Valuation (DCF Model)", "Risk Analytics Tools", "Algorithmic Trading Basics"],
+        "projects": ["Startup Valuation Project", "Hedging Strategy Design", "Portfolio Optimization Case"],
+        "certifications": ["CFA Level 1 (Candidate)", "FRM (Part 1)", "Advanced Valuation (CFI)"],
+        "internships": ["Investment Banking Summer Associate", "Treasury Intern", "Hedge Fund Assistant"],
+        "career": ["Investment Banker", "Fund Manager", "Finance Director"],
+        "advice": ["Participate in national B-school Case Competitions"]
+      }
+    },
+    "Marketing": {
+      "1": {
+        "core": ["Marketing Management", "Consumer Behaviour", "Marketing Research", "Strategic Management"],
+        "technical": ["SEO/SEM Fundamentals", "Google Analytics", "Social Media Marketing", "CRM Software (HubSpot)"],
+        "projects": ["Brand Awareness Survey", "Marketing Mix (4Ps) Design", "Consumer Journey Mapping"],
+        "certifications": ["Google Ads Certification", "HubSpot Content Marketing"],
+        "internships": ["Market Research Intern", "Digital Marketing Trainee", "Sales & BD Intern"],
+        "career": ["Marketing Executive", "Brand Manager", "Sales Manager"],
+        "advice": ["Marketing is now data-driven—learn to read trends, not just creative ads"]
+      },
+      "2": {
+        "core": ["Brand Management", "International Marketing", "Retail & E-commerce", "Advertising & PR"],
+        "technical": ["A/B Testing", "Email Automation", "Marketing ROI Analytics", "Video Editing for Brands"],
+        "projects": ["New Product Launch Strategy", "Advertising Campaign Design", "E-commerce Optimization Project"],
+        "certifications": ["Facebook Blueprint Cert", "Advanced SEO Professional"],
+        "internships": ["FMCG Marketing Intern", "Ad Agency Summer Intern", "Brand Activation Lead"],
+        "career": ["Category Manager", "Product Marketing Manager", "Chief Marketing Officer (Future)"],
+        "advice": ["Master storytelling and data analysis simultaneously"]
+      }
+    },
+    "HR": {
+      "1": {
+        "core": ["Human Resource Management", "Organizational Behaviour", "Labour Laws", "Talent Acquisition"],
+        "technical": ["Payroll Management Systems", "HRIS (HR Information Systems)", "Employee Engagement Tools"],
+        "projects": ["Recruitment Strategy Design", "Job Description Analysis", "Employee Satisfaction Survey"],
+        "certifications": ["HR Analytics (SHRM/Coursera)", "Certified Recruitment Professional"],
+        "internships": ["Talent Acquisition Intern", "HR Operations Trainee"],
+        "career": ["HR Recruiter", "HR Coordinator", "Talent Scout"],
+        "advice": ["Build high emotional intelligence (EQ) and learn Labour laws"]
+      },
+      "2": {
+        "core": ["Strategic HRM", "Industrial Relations", "Compensation & Benefits", "Training & Development"],
+        "technical": ["Advanced HR Analytics", "Succession Planning tools", "Conflict Resolution Methods"],
+        "projects": ["Performance Appraisal System Design", "Training Program Feasibility", "Corporate Policy Redesign"],
+        "certifications": ["SHRM-CP (Candidate)", "Payroll Management Certification"],
+        "internships": ["Strategic HR Intern", "Industrial Relations Trainee"],
+        "career": ["HR Business Partner", "Training Manager", "Employee Relations Lead"],
+        "advice": ["HR is moving toward Data Analytics—learn Python or PowerBI"]
+      }
+    },
+    "Operations": {
+      "1": {
+        "core": ["Operations Management", "Supply Chain Management", "Logistics", "Operations Research"],
+        "technical": ["Total Quality Management (TQM)", "ERP Systems Basics (SAP)", "Excel Solver for Optimization"],
+        "projects": ["Inventory Management Model", "Warehouse Layout Design", "Six Sigma Case Study"],
+        "certifications": ["Six Sigma Yellow Belt", "Lean Management Basics"],
+        "internships": ["Logistics Intern", "Warehouse Operations Trainee"],
+        "career": ["Operations Executive", "Supply Chain Planner"],
+        "advice": ["Operations is about efficiency—learn to minimize waste"]
+      },
+      "2": {
+        "core": ["Project Management", "Procurement & Sourcing", "World Class Manufacturing", "Service Operations"],
+        "technical": ["Advanced SAP/ERP", "Project Mgmt Tools (MSP/Primavera)", "Operations Simulation"],
+        "projects": ["Supply Chain Optimization Project", "Lean Implementation Study", "Global Sourcing Strategy"],
+        "certifications": ["PMP Basics", "Six Sigma Green/Black Belt"],
+        "internships": ["E-commerce Hub Intern", "Manufacturing Plant Trainee"],
+        "career": ["Operations Manager", "Supply Chain Consultant", "Plant Manager"],
+        "advice": ["Operations professionals are the backbone of e-commerce—focus on logistics"]
+      }
+    },
+    "Business Analytics": {
+      "1": {
+        "core": ["Statistics for Business", "Predictive Modeling", "Optimization Analytics", "Decision Science"],
+        "technical": ["Python for Business", "Tableau / Power BI", "SQL for Data Insights", "Excel Dashboards"],
+        "projects": ["Sales Forecasting Model", "Interactive Business Dashboard", "Customer Churn Prediction"],
+        "certifications": ["Google Data Analytics", "Tableau Desktop Specialist"],
+        "internships": ["Business Analyst Intern", "Data Visualization Trainee"],
+        "career": ["Business Analyst", "Data Consultant"],
+        "advice": ["Bridge the gap between technical data and business decisions"]
+      },
+      "2": {
+        "core": ["Machine Learning for Business", "Big Data Analytics", "Web Analytics", "Marketing/Financial Analytics"],
+        "technical": ["Advanced Python/R", "RapidMiner / Alteryx", "Cloud Analytics (AWS/GCP)"],
+        "projects": ["E-commerce Recommendation Engine", "Real-time Sentiment Analysis", "AI-driven Supply Chain Model"],
+        "certifications": ["Microsoft Certified: Power BI Analyst", "AWS Machine Learning"],
+        "internships": ["Senior Analytics Intern", "Product Data Intern"],
+        "career": ["Data Scientist", "Analytics Manager", "Solutions Architect"],
+        "advice": ["Don't just build models—learn to explain the 'Business ROI' to stakeholders"]
+      }
+    }
+  },
+  "Degree": {
+    "B.Sc. Computer Science": {
+      "1": { "core": ["Math for CS", "Digital Logic", "Computer Fundamentals"], "technical": ["C/C++", "HTML & CSS", "Linux CLI Basics"], "projects": ["Scientific Calculator", "Portfolio Site"], "certifications": ["C++ Cert", "Google IT Support Professional"], "internships": ["Web Design Intern", "Campus IT Support"], "career": ["Junior Web Dev", "IT Support Exec"], "advice": ["Focus on logic", "Master DSA early"] },
+      "2": { "core": ["Data Structures", "DBMS", "Operating Systems"], "technical": ["Java", "SQL", "JavaScript", "Python Automation"], "projects": ["Library System", "JS Quiz App", "Inventory Tracker"], "certifications": ["Oracle Java Cert", "SQL Advanced"], "internships": ["Backend Intern", "Database Assistant"], "career": ["Backend Developer", "QA Tester"], "advice": ["Practice on LeetCode", "Learn SQL window functions"] },
+      "3": { "core": ["Networks", "Cyber Security", "Web Tech"], "technical": ["React/Node.js", "Cloud Deployment", "Git & GitHub"], "projects": ["E-commerce Platform", "Weather App"], "certifications": ["AWS Cloud Practitioner", "Meta Front-End Cert"], "internships": ["Full Stack Intern", "Cloud Support Intern"], "career": ["Full Stack Developer", "System Analyst"], "advice": ["Build major project", "Optimize LinkedIn"] }
+    },
+    "B.Sc. Data Science": {
+      "1": { "core": ["Descriptive Stats", "Linear Algebra", "Calculus"], "technical": ["Python", "Pandas", "Excel", "Tableau Basics"], "projects": ["EDA Project", "Stock Visualizer"], "certifications": ["Google Data Analytics", "Python for DS"], "internships": ["Data Labeling Intern", "Analytics Intern"], "career": ["Junior Data Analyst", "Reporting Exec"], "advice": ["Master Pandas and Cleaning"] },
+      "2": { "core": ["Inferential Stats", "ML Basics", "DBMS"], "technical": ["SQL for DS", "Scikit-Learn", "Matplotlib"], "projects": ["Housing Model", "Spam Classifier"], "certifications": ["Machine Learning Specialization"], "internships": ["ML Intern", "BI Intern"], "career": ["Junior ML Engineer", "BI Analyst"], "advice": ["Learn data storytelling"] },
+      "3": { "core": ["Deep Learning", "NLP", "AI Ethics"], "technical": ["TensorFlow/PyTorch", "Spark Basics", "Model Deployment"], "projects": ["AI Image Recognizer", "NLP Chatbot"], "certifications": ["TensorFlow Developer", "AWS ML Specialty"], "internships": ["AI Engineer Intern", "Data Engineer Intern"], "career": ["Data Scientist", "MLOps Engineer"], "advice": ["Focus on deployment"] }
+    },
+    "B.Sc. Biotechnology": {
+      "1": { "core": ["Cell Biology", "Chemistry", "Microbiology"], "technical": ["Lab Safety", "Microscopy", "pH Meter"], "projects": ["Microbial Culture", "Plant Tissue Study"], "certifications": ["Lab Technician Basics"], "internships": ["Pathology Lab Intern", "QC Assistant"], "career": ["Lab Assistant", "Research Trainee"], "advice": ["Maintain high CGPA"] },
+      "2": { "core": ["Molecular Biology", "Genetics", "Immunology"], "technical": ["PCR Techniques", "Chromatography", "Bioinformatics"], "projects": ["DNA Extraction", "Enzyme Analysis"], "certifications": ["Bioinformatics Cert"], "internships": ["Pharma R&D Intern", "Summer Research Fellowship"], "career": ["Biotech Associate", "Microbiologist"], "advice": ["Apply for summer fellowships early"] },
+      "3": { "core": ["Genetic Engineering", "Fermentation Tech", "Bioethics"], "technical": ["CRISPR Basics", "Data Analysis (R)"], "projects": ["Waste Water Model", "Fermentation Study"], "certifications": ["Genetic Engineering Course"], "internships": ["Industry Intern (Cipla)", "Clinical Trials"], "career": ["Research Scientist", "QC Manager"], "advice": ["Prepare for IIT-JAM/GAT-B"] }
+    },
+    "B.Sc. Agriculture": {
+      "1": { "core": ["Agronomy", "Soil Science", "Horticulture"], "technical": ["Soil Sampling", "Tractor Basics", "Crop ID"], "projects": ["Kitchen Garden", "Soil Texture Analysis"], "certifications": ["Organic Farming Basics"], "internships": ["Farm Assistant", "Nursery Intern"], "career": ["Agri Assistant", "Nursery Supervisor"], "advice": ["Understand local soil health"] },
+      "2": { "core": ["Entomology", "Plant Pathology", "Agri-Economics"], "technical": ["Pest Control", "Irrigation Design"], "projects": ["Pest Study", "Irrigation Model"], "certifications": ["Pesticide Safety Cert"], "internships": ["Seed Company Intern"], "career": ["Plant Protection Officer", "Seed Technologist"], "advice": ["Focus on sustainable farming"] },
+      "3": { "core": ["Organic Farming", "Livestock Mgmt", "Agri-Business"], "technical": ["Drones in Agri", "Agri-Fintech"], "projects": ["Agri-Business Plan"], "certifications": ["Agri-Business Mgmt", "Drone Pilot"], "internships": ["Agri-Tech Startup", "NGO Rural Dev"], "career": ["Agri Officer", "Agri-Consultant"], "advice": ["Rural exposure is key"] },
+      "4": { "core": ["RAWE", "Industrial Tie-up", "Agri-Waste Mgmt"], "technical": ["Digital Agri", "Precision Farming"], "projects": ["Final Thesis", "Climate-Resilient Crop"], "certifications": ["Precision Agri Cert"], "internships": ["Industry Placement", "Govt Agri Dept"], "career": ["Senior Agri Officer", "Agronomist"], "advice": ["RAWE is your most important phase"] }
+    },
+    "BBA": {
+      "1": { "core": ["Principles of Management", "Accounting Basics"], "technical": ["Advanced Excel", "MS PowerPoint", "Public Speaking"], "projects": ["Market Survey", "Startup Pitch Deck"], "certifications": ["Google Digital Marketing", "Excel Business"], "internships": ["Sales Intern", "Marketing Intern"], "career": ["Management Trainee", "Business Analyst"], "advice": ["Improve soft skills", "Read business news"] },
+      "2": { "core": ["Finance Mgmt", "Marketing Mgmt", "HR Mgmt", "Business Law"], "technical": ["CRM Tools", "Google Analytics", "Negotiation"], "projects": ["Brand Audit", "HR Policy Design"], "certifications": ["HubSpot Content Marketing"], "internships": ["HR Assistant Intern", "Finance Intern"], "career": ["Digital Marketer", "Financial Consultant"], "advice": ["Identify specialization early"] },
+      "3": { "core": ["Strategic Mgmt", "International Business", "Ethics"], "technical": ["PowerBI", "Data Visualization"], "projects": ["Business Plan", "Feasibility Study"], "certifications": ["PMP Basics", "Strategic Leadership"], "internships": ["Business Dev Intern", "Strategy Assistant"], "career": ["Business Manager", "Entrepreneur"], "advice": ["Prepare for CAT/GMAT"] }
+    }
+  }
+}
