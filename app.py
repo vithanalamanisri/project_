@@ -4,8 +4,8 @@ import os
 import sqlite3
 
 app = Flask(__name__)
-# Secret key is required for Flask sessions (logging users in)
-app.secret_key = 'emerald_master_secret_key_123'
+# Use an environment variable for the secret key in production, fallback for local testing
+app.secret_key = os.environ.get('SECRET_KEY', 'emerald_master_secret_key_123')
 
 # ==========================================
 # 🗄️ DATABASE SETUP
@@ -87,7 +87,7 @@ def export_roadmap():
         return "Roadmap not found", 404
 
 # ==========================================
-# 🔐 NEW: USER AUTHENTICATION & STORAGE
+# 🔐 USER AUTHENTICATION & STORAGE
 # ==========================================
 @app.route('/api/login', methods=['POST'])
 def login():
@@ -105,7 +105,6 @@ def logout():
 
 @app.route('/api/session', methods=['GET'])
 def check_session():
-    """Checks if the user is already logged in when the page reloads."""
     if 'user_email' in session:
         return jsonify({"logged_in": True, "email": session['user_email']})
     return jsonify({"logged_in": False})
@@ -121,7 +120,6 @@ def save_roadmap():
 
     conn = sqlite3.connect('users.db')
     c = conn.cursor()
-    # Check if already saved
     c.execute("SELECT * FROM saved_roadmaps WHERE email=? AND course=? AND branch=? AND year=?", (email, course, branch, year))
     if c.fetchone():
         conn.close()
@@ -148,4 +146,6 @@ def get_saved_roadmaps():
     return jsonify(saved)
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    # Render assigns a dynamic port. This ensures Flask listens to it correctly.
+    port = int(os.environ.get('PORT', 5000))
+    app.run(host='0.0.0.0', port=port)
